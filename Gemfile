@@ -12,7 +12,7 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "solid_cache"
 gem "solid_queue"
 gem "solid_cable"
-gem "bootsnap", require: false
+gem "bootsnap", require: false 
 gem "kamal", require: false
 gem "thruster", require: false
 
@@ -31,3 +31,5 @@ group :development do
 end
 
 gem "tailwindcss-rails", "~> 4.6"
+
+gem "devise", "~> 5.0"
